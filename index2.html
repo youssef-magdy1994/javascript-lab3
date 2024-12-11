@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css" />
+    <script src="task2.js" defer></script>
+  </head>
+  <body>
+    <div id="main">
+      <input
+        style="width: 250px"
+        type="number"
+        min="1"
+        max="200"
+        name="taskIdInput"
+        id="taskIdInput"
+        placeholder="Enter Task ID 1 to 200"
+      />
+      <button id="oneTaskBtn">View Task by ID</button>
+      <button id="allTasksBtn">View All Tasks</button>
+      <table style="width: 80%; margin: auto">
+        <tr>
+          <th>ID</th>
+          <th>Task Title</th>
+          <th>Completed</th>
+        </tr>
+        <tbody id="tasksTable"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
